@@ -1,0 +1,38 @@
+
+.main-Grapper, body {
+    flex-direction: row;
+    border: 1px solid red;
+
+
+
+
+    display: flex;
+    flex: 1;
+}
+
+
+
+
+#c_f9dfdsadASDontent {
+    flex: 1;
+}
+
+
+
+
+ul {
+    padding: 20px 0;
+    flex: 1;
+}
+
+
+
+
+li {
+    font-family: "Lato", 'Helvetica', sans-serif;
+    color: whitesmoke;
+    line-height: 44px;
+}
+
+
+
