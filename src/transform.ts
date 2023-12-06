@@ -71,10 +71,14 @@ function renderItem(item: Item) {
     );
   }
   properties = properties.map((x) => SPACE + x);
-  item.selectors.forEach((selector) => {
+  item.selectors.forEach((selector, idx, arr) => {
     code.push(SPACE + '"' + selector + '"' + ": {");
     code.push(properties.join(",\n"));
-    code.push(SPACE + "}");
+    if (idx !== arr.length - 1) {
+      code.push(SPACE + "},");
+    } else {
+      code.push(SPACE + "}");
+    }
   });
   return code.join("\n");
 }
