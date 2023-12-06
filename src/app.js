@@ -1,12 +1,12 @@
 import fs from "fs";
-import transform from "./transform.js";
+import transform from "./parse-variables.js";
 
-const cssFilePath = "./src/styles.css";
+const variablesFilePath = "./src/variables.less";
 
 try {
-  const cssContent = fs.readFileSync(cssFilePath, "utf8");
-  const cssObject = transform(cssContent);
-  console.log(cssObject);
+  const lessContent = fs.readFileSync(variablesFilePath, "utf8");
+  const lessVariables = transform(lessContent);
+  console.log(lessVariables);
 } catch (error) {
   console.error(`Failed to read CSS file: ${error.message}`);
 }

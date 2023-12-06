@@ -1,0 +1,132 @@
+@primary-color: colorPrimary
+@primary-color-hover: colorPrimaryHover
+@primary-color-active: colorPrimaryActive
+@primary-dark-color-hover: 
+@primary-dark-color-pressed:
+@primary-color-hover-table: 
+
+@background-color-button: colorPrimary
+@background-color-button-hover: colorPrimaryHover
+@background-color-button-active: colorPrimaryActive
+
+@background-color-button-icon-only-hover:
+@background-color-button-icon-only-active:
+
+@background-color-component:
+@background-color-secondary: colorFillSecondary
+@background-color-tetriary: colorFillTertiary
+
+@background-color: colorBgContainer
+@background-color-hover: colorPrimaryHover
+@background-color-active: colorPrimaryActive
+
+@background-color-menu: colorBgContainer
+
+@background-color-input: colorPrimary
+@background-color-input-hover: colorPrimaryHover
+
+@background-color-popover: colorPrimary
+
+@background-color-disabled: colorBgContainerDisabled
+@color-disabled: colorTextDisabled
+
+@background-color-tooltip: colorPrimary
+@background-color-tag: colorPrimary
+
+@color-shadow:
+
+@border-color: colorBorder
+@border-color-hover:
+@border-color-light:
+@border-color-inverse:
+
+@border-radius-base: borderRadius
+@border-radius-surface: 
+@border-width: 
+
+@icon-color: colorIcon
+@icon-color-inverse: 
+
+@body-background-color: 
+
+@text-color-primary: colorText
+@text-color-secondary: colorTextSecondary
+@text-color-tetriary: colorTextTertiary
+@text-color-quaternary: colorTextQuaternary
+@text-color-inverse: 
+@text-color-inverse-secondary:
+
+@link-color: colorLink
+@link-color-visited:
+
+@font-family: fontFamily
+@font-size: fontSize
+@font-size-md:
+@font-size-lg: fontSizeLG
+@font-size-caption:
+@font-weight-small:
+@font-weight: 
+@font-weight-medium:
+@font-weight-bold:
+@line-height: lineHeight
+@line-height-component:
+@enable-font-icons:
+@text-small:
+
+@h1-font-size: fontSizeHeading1
+@h2-font-size: fontSizeHeading2
+@h3-font-size: fontSizeHeading3
+@h4-font-size: fontSizeHeading4
+@h5-font-size: fontSizeHeading5
+@h6-font-size:
+
+@color-alert:
+@color-info:
+@color-positive:
+@color-negative:
+@background-color-negative:
+@background-color-alert:
+@background-color-info:
+@background-color-positive:
+
+@input-table-delete-row-color:
+
+@graph-color-line-base: 
+@graph-color-line-secondary:
+@graph-color-brown:
+@graph-color-red:
+@graph-color-orange:
+@graph-color-yellow:
+@graph-color-green-light:
+@graph-color-green:
+@graph-color-green-dark:
+@graph-color-green-blue:
+@graph-color-green-blue-light:
+@graph-color-blue-very-light:
+@graph-color-blue-light:
+@graph-color-blue:
+@graph-color-blue-dark:
+@graph-color-violet:
+@graph-color-purple:
+@graph-color-pink:
+
+@height-xs: controlHeightXS
+@height-sm: controlHeightSM
+@height-md: 
+@height-lg: controlHeightLG
+
+@margin-xs: marginXS
+@margin-sm: marginSM
+@margin-md: marginMD
+@margin-lg: marginLG
+@margin-xl: marginXL
+@margin-xxl: marginXXL
+
+@padding-xs: paddingXS
+@padding-sm: paddingSM
+@padding-md: paddingMD
+@padding-lg: paddingLG
+@padding-xl: paddingXL
+@padding-xxl: 
+
+@shadow-3dp: boxShadow
